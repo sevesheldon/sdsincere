@@ -1,0 +1,26 @@
+
+
+.wrapper {
+	background-color: aliceblue;
+}
+
+.logo {
+    margin: auto;
+    width: 300px;
+}
+
+nav.nav {
+    margin: 30px auto;
+    width: max-content;
+}
+
+.nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.nav ul li {
+    display: inline-block;
+	font-size: 28px;
+    padding: 0 20px;
+}
