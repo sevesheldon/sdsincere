@@ -28,7 +28,7 @@
 									$image_url = $image_object['sizes'][$image_size];
 									?>
 
-									<div class="col-sm-12" id="indica-content">
+									<div class="content col-sm-12" id="indica-content">
 
 										<div class="row">
 
@@ -42,7 +42,7 @@
 
 												<div class="row">
 
-													<div class="col-sm-6">	
+													<div class="col-sm-9">	
 			    		    				
 					    		    					<h2><?php the_sub_field('name-indica'); ?></h2>
 
@@ -50,21 +50,27 @@
 
 					    		    				</div>
 					    		    				
-					    		    				<div class="col-sm-2">	
+					    		    				<div class="col-sm-1">	
 
-					    		    					<p>THC<br><?php the_sub_field('thc-indica'); ?>%</p>
+					    		    					<p>THC<p/>
+
+					    		    					<p><?php the_sub_field('thc-indica'); ?>%</p>
 
 					    		    				</div>	
 
-					    		    				<div class="col-sm-2">
+					    		    				<div class="col-sm-1">
 
-					    		    					<p>CBD<br><?php the_sub_field('cbd-indica'); ?>%</p>
+					    		    					<p>CBD<p/>
+
+					    		    					<p><?php the_sub_field('cbd-indica'); ?>%</p>
 
 					    		    				</div>
 
-					    		    				<div class="col-sm-2">
+					    		    				<div class="col-sm-1">
 
-					    		    					<p>CBN<br><?php the_sub_field('cbn-indica'); ?>%</p>
+					    		    					<p>CBN<p/>
+
+					    		    					<p><?php the_sub_field('cbn-indica'); ?>%</p>
 
 					    		    				</div>	
 

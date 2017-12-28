@@ -36,6 +36,10 @@ nav.nav {
     font-weight: 600;
 }
 
+.content .col-sm-7 {
+    padding-right: 20px;
+}
+
 
 
 .footer {
