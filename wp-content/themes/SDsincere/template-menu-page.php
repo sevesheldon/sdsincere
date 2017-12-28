@@ -32,13 +32,13 @@
 
 										<div class="row">
 
-											<div class="col-sm-3">
+											<div class="col-sm-2">
 			    		    			
 					    		    			<img src="<?php echo $image_url; ?>" />
 
 					    		    		</div>						    		    						 
 
-											<div class="col-sm-6">
+											<div class="col-sm-7">
 
 												<div class="row">
 
