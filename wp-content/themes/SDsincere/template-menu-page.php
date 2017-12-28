@@ -13,7 +13,13 @@
 
 					<?php the_content(); ?>
 
-					<div id="indica-rows" class="row">	
+					<div id="indica-rows" class="row">
+
+						<div class="cat-name">
+
+							<h1>Indica</h1>
+
+						</div>		
 
 					<?php if( have_rows('indica') ): ?>
 							<?php while( have_rows('indica') ): the_row(); 

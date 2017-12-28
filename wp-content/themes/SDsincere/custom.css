@@ -26,6 +26,14 @@ nav.nav {
 }
 
 
+
+.cat-name h1 {
+    margin: 20px;
+    font-weight: 600;
+}
+
+
+
 .footer {
     margin: 30px 0;
     text-align: center;
