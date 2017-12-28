@@ -24,3 +24,10 @@ nav.nav {
 	font-size: 28px;
     padding: 0 20px;
 }
+
+
+.footer {
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+}
