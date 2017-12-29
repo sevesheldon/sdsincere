@@ -26,7 +26,7 @@ nav.nav {
 }
 
 .row img {
-    height: 100px;
+    height: 102px;
 }
 
 .cat-name h1 {
@@ -34,17 +34,27 @@ nav.nav {
     font-weight: 600;
 }
 
-.content .col-sm-7 {
-    padding-right: 40px;
-}
-
 .row1 {
     border: 1px solid #c3c3c3;
+}
+
+.row1.col-1.col-sm-2 {
+    border-right: none;
+    padding-left: 0;
+}
+
+.content .col-sm-7 {
+    padding-right: 40px;
+    padding-left: 0;
 }
 
 .col-sm-7 {
 	border-right: none;
 	border-left: none;
+}
+
+.col-2 .col-sm-9 {
+    padding-left: 0;
 }
 
 .col-2 {
@@ -62,7 +72,7 @@ nav.nav {
 .prices .col-sm-3 {
     border: 1px solid #c3c3c3;
     padding: 20px 0;
-    margin-top: -15px;
+    margin-top: -13px;
 }
 
 .price {
