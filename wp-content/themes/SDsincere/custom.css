@@ -30,8 +30,13 @@ nav.nav {
 }
 
 .cat-name h1 {
-    margin: 20px;
+    margin: 0 0 10px 0;
     font-weight: 600;
+}
+
+.content {
+    margin: 5px 0;
+    padding-right: 0;
 }
 
 .row1 {
@@ -41,6 +46,7 @@ nav.nav {
 .row1.col-1.col-sm-2 {
     border-right: none;
     padding-left: 0;
+    margin-left: -20px;
 }
 
 .content .col-sm-7 {
@@ -81,6 +87,10 @@ nav.nav {
 
 .weight {
 	text-align: center;
+}
+
+#cat-name-sativa {
+	margin-top: 30px;
 }
 
 
