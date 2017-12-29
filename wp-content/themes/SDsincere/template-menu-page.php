@@ -32,13 +32,13 @@
 
 										<div class="row">
 
-											<div class="col-sm-2">
+											<div class="row1 col-1 col-sm-2">
 			    		    			
 					    		    			<img src="<?php echo $image_url; ?>" />
 
 					    		    		</div>						    		    						 
 
-											<div class="col-sm-7">
+											<div class="row1 col-2 col-sm-7">
 
 												<div class="row">
 
@@ -54,7 +54,7 @@
 
 					    		    					<p>THC<p/>
 
-					    		    					<p><?php the_sub_field('thc-indica'); ?>%</p>
+					    		    					<p class="values"><?php the_sub_field('thc-indica'); ?>%</p>
 
 					    		    				</div>	
 
@@ -62,7 +62,7 @@
 
 					    		    					<p>CBD<p/>
 
-					    		    					<p><?php the_sub_field('cbd-indica'); ?>%</p>
+					    		    					<p class="values"><?php the_sub_field('cbd-indica'); ?>%</p>
 
 					    		    				</div>
 
@@ -70,7 +70,7 @@
 
 					    		    					<p>CBN<p/>
 
-					    		    					<p><?php the_sub_field('cbn-indica'); ?>%</p>
+					    		    					<p class="values"><?php the_sub_field('cbn-indica'); ?>%</p>
 
 					    		    				</div>	
 
@@ -79,31 +79,31 @@
 					    		    		</div>			
 					    		    	
 
-											<div class="col-sm-3">
+											<div class="row1 col-3 col-sm-3">
 
-												<div class="row">
+												<div class="prices row">
 
 													<div class="col-sm-3">	
 
-							    		    			<div id="1/8-indica"><p>1/8</p><h4>$<?php the_sub_field('1/8-indica'); ?></h4></div>
+							    		    			<div class="weight" id="1/8-indica"><p>1/8</p><h4 class="values price">$<?php the_sub_field('1/8-indica'); ?></h4></div>
 
 							    		    		</div>
 							    		    		
 							    		    		<div class="col-sm-3">		
 
-							    		    			<div id="1/4-indica"><p>1/4</p><h4>$<?php the_sub_field('1/4-indica'); ?></h4></div>
+							    		    			<div class="weight" id="1/4-indica"><p>1/4</p><h4 class="values price">$<?php the_sub_field('1/4-indica'); ?></h4></div>
 
 							    		    		</div>
 							    		    		
 							    		    		<div class="col-sm-3">		
 
-							    		    			<div id="1/2-indica"><p>1/2</p><h4>$<?php the_sub_field('1/2-indica'); ?></h4></div>
+							    		    			<div class="weight" id="1/2-indica"><p>1/2</p><h4 class="values price">$<?php the_sub_field('1/2-indica'); ?></h4></div>
 
 							    		    		</div>
 							    		    		
 							    		    		<div class="col-sm-3">		
 
-							    		    			<div id="oz-indica"><p>Oz.</p><h4>$<?php the_sub_field('oz-indica'); ?></h4></div>
+							    		    			<div class="weight" id="oz-indica"><p>Oz.</p><h4 class="values price">$<?php the_sub_field('oz-indica'); ?></h4></div>
 
 							    		    		</div>	
 

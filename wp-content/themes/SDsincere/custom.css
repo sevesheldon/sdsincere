@@ -29,17 +29,49 @@ nav.nav {
     height: 100px;
 }
 
-
-
 .cat-name h1 {
     margin: 20px;
     font-weight: 600;
 }
 
 .content .col-sm-7 {
-    padding-right: 20px;
+    padding-right: 40px;
 }
 
+.row1 {
+    border: 1px solid #c3c3c3;
+}
+
+.col-sm-7 {
+	border-right: none;
+	border-left: none;
+}
+
+.col-2 {
+    padding-top: 20px;
+}
+
+.col-3 {
+    padding-top: 15px;
+}
+
+.values {
+	padding-top: 15px;
+}
+
+.prices .col-sm-3 {
+    border: 1px solid #c3c3c3;
+    padding: 20px 0;
+    margin-top: -15px;
+}
+
+.price {
+    padding-top: 12px;
+}
+
+.weight {
+	text-align: center;
+}
 
 
 .footer {
