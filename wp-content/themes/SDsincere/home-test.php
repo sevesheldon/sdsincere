@@ -4,7 +4,9 @@
 	<!-- section -->
 	<section>
 
-	<?php if (have_posts()): while (have_posts()) : the_post(); ?>
+	<?php 
+
+	if (have_posts()): while (have_posts()) : the_post(); ?>
 
 		<!-- article -->
 		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -12,7 +14,7 @@
 			<!-- post thumbnail -->
 			<?php if ( has_post_thumbnail()) : // Check if Thumbnail exists ?>
 				<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
-					<?php the_post_thumbnail(); // Fullsize image for the single post ?>
+					<?php the_post_thumbnail('thumbnail'); // Fullsize image for the single post ?>
 				</a>
 			<?php endif; ?>
 			<!-- /post thumbnail -->
@@ -25,12 +27,18 @@
 
 			<?php the_content(); // Dynamic Content ?>
 
-			<p><?php the_category(', '); // Separated by commas ?></p>
+			 <p><?php the_category(', '); // Separated by commas ?></p>
+
+			 <div>
+			 	<p class="thc"><?php the_field('thc'); ?>%</p>	
+
+			 </div>
+
 
 		</article>
 		<!-- /article -->
 
-	<?php endwhile; ?>
+	<?php endwhile; wp_reset_postdata();?>
 
 	<?php else: ?>
 
