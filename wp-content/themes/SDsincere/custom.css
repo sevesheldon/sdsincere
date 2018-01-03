@@ -67,18 +67,14 @@ nav.nav {
     padding-top: 19px;
 }
 
-.col-3 {
-    padding-top: 13px;
-}
 
 .values {
 	padding-top: 15px;
 }
 
-.prices .col-sm-3 {
+.price-box {
     border: 1px solid #c3c3c3;
     padding: 20px 0;
-    margin-top: -13px;
 }
 
 .price {
