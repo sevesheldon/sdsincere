@@ -68,6 +68,9 @@ nav.nav {
     padding-top: 19px;
 }
 
+.gear-content {
+    padding-left: 0;
+}
 
 .values {
 	padding-top: 15px;
@@ -91,9 +94,9 @@ nav.nav {
 	text-align: center;
 }
 
-#cat-name-sativa {
+/*#cat-name-sativa {
 	margin-top: 30px;
-}
+}*/
 
 
 .footer {

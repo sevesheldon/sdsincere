@@ -42,39 +42,51 @@
 
 									<div class="row">
 
-										<div class="col-sm-9">	
-			    				
-		    		    					<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>	
+										<?php if ( get_field('gear') == 'no' ) : ?>
 
-		    		    					<p><?php the_content(); ?></p>
+											<div class="col-sm-9">	
+				    				
+			    		    					<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>	
 
-		    		    				</div>
-		    		    				
-		    		    				<div class="col-sm-1 percents">	
+			    		    					<p><?php the_content(); ?></p>
 
-		    		    					<p>THC<p/>
+			    		    				</div>
+			    		    				
+			    		    				<div class="col-sm-1 percents">	
 
-		    		    					<p class="values"><?php the_field('thc'); ?>%</p>
+			    		    					<p>THC<p/>
 
-		    		    				</div>	
+			    		    					<p class="values"><?php the_field('thc'); ?>%</p>
 
-		    		    				<div class="col-sm-1 percents">
+			    		    				</div>	
 
-		    		    					<p>CBD<p/>
+			    		    				<div class="col-sm-1 percents">
 
-		    		    					<p class="values"><?php the_field('cbd'); ?>%</p>
+			    		    					<p>CBD<p/>
 
-		    		    				</div>
+			    		    					<p class="values"><?php the_field('cbd'); ?>%</p>
 
-		    		    				<div class="col-sm-1 percents">
+			    		    				</div>
 
-		    		    					<p>CBN<p/>
+			    		    				<div class="col-sm-1 percents">
 
-		    		    					<p class="values"><?php the_field('cbn'); ?>%</p>
+			    		    					<p>CBN<p/>
 
-		    		    					<h1><?php get_field('pricing') ?></h1>
+			    		    					<p class="values"><?php the_field('cbn'); ?>%</p>		    		    				
 
-		    		    				</div>	
+			    		    				</div>
+
+		    		    				<?php else : ?>
+
+			    		    				<div class="col-sm-12 gear-content">	
+				    				
+			    		    					<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>	
+
+			    		    					<p><?php the_content(); ?></p>
+
+			    		    				</div>
+
+			    		    			<?php endif; ?>		
 
 		    		    			</div>
 
