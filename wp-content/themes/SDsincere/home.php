@@ -12,7 +12,7 @@
 
 		   $catPosts = new WP_Query( array ( 'category_name' => $category->slug, 'orderby' => 'title' ) ); 
 
-		   echo "<h1><a href='/category/'>$category->name ($catPosts->found_posts)</a></h1> <br/>";
+		   echo "<div class='cat-name'><h1><a href='/category/'>$category->name ($catPosts->found_posts)</a></h1></div> <br/>";
 
 		   // print_r($catPosts);
 		   if ( $catPosts->have_posts() ){
