@@ -72,6 +72,11 @@ nav.nav {
 	padding-top: 15px;
 }
 
+.percents {
+    text-align: center;
+    padding: 0;
+}
+
 .price-box {
     border: 1px solid #c3c3c3;
     padding: 20px 0;

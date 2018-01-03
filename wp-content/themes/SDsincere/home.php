@@ -50,7 +50,7 @@
 
 		    		    				</div>
 		    		    				
-		    		    				<div class="col-sm-1">	
+		    		    				<div class="col-sm-1 percents">	
 
 		    		    					<p>THC<p/>
 
@@ -58,7 +58,7 @@
 
 		    		    				</div>	
 
-		    		    				<div class="col-sm-1">
+		    		    				<div class="col-sm-1 percents">
 
 		    		    					<p>CBD<p/>
 
@@ -66,7 +66,7 @@
 
 		    		    				</div>
 
-		    		    				<div class="col-sm-1">
+		    		    				<div class="col-sm-1 percents">
 
 		    		    					<p>CBN<p/>
 
