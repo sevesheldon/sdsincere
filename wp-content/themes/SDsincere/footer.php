@@ -1,6 +1,10 @@
 			<!-- footer -->
 			<footer class="footer" role="contentinfo">
 
+				<div class="top">
+					<a href="#"><div class="arrow-up"></div><div class="back-to-top">Back To Top</div></a>
+				</div>
+
 				<!-- copyright -->
 				<p class="copyright">
 					&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?> |

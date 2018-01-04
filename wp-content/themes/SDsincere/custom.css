@@ -104,3 +104,20 @@ nav.nav {
     text-align: center;
     font-size: 16px;
 }
+
+.top {
+    padding: 10px 0 20px 0;
+}
+
+.arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #4273ff;
+    margin: 0 auto 5px auto;
+}
+
+.back-to-top {
+    
+}
