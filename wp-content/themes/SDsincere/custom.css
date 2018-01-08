@@ -95,10 +95,15 @@ nav.nav {
 	text-align: center;
 }
 
-/*#cat-name-sativa {
-	margin-top: 30px;
-}*/
+/***** SINGLE *****/
 
+#single-title {
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+/***** FOOTER *****/
 
 .footer {
     margin: 30px 0;

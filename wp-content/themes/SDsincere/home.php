@@ -54,7 +54,7 @@
 										<div class="col-sm-9">	
 			    				
 		    		    					<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>	
-	   										<div class='cat-name-content'><p><a href='/category/<?php echo $category->name ?>'><?php echo $category->name ?></a> | <?php html5wp_excerpt('html5wp_index'); ?></p></div>
+	   										<div class='cat-name-content'><p><a href='/category/<?php echo $category->name ?>'><?php echo $category->name ?></a> | <?php the_field('descript'); ?></p></div>
 
 	<!-- 			    		    					<p><?php the_content(); ?></p> <a href='/category/<?php echo $category->name ?>'> <?php echo $category->name ?>
 	-->
