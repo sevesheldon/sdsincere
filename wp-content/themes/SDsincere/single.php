@@ -18,6 +18,9 @@
 
 			<div class="container">
 				<div class="row" id="single-percents">
+
+				<?php if ( get_field('gear') == 'no' ) : ?>
+
 					<div class="col-sm-4 single-percent" id="single-thc">
     					<p>THC<p/>
     					<p class=""><?php the_field('thc'); ?>%</p>						
@@ -29,10 +32,12 @@
 					<div class="col-sm-4 single-percent" id="single-cbn">
     					<p>CBN<p/>
     					<p class=""><?php the_field('cbn'); ?>%</p>							
-					</div>					
+					</div>
 
-
+    			<?php endif; ?>
+    									
 				</div>
+
 			</div>
 
 			<!-- post thumbnail -->
