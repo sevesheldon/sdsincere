@@ -116,6 +116,11 @@ nav.nav {
     max-width: 60px !important;
 }
 
+#single-content {
+    max-width: 860px;
+    margin: auto;
+}
+
 
 /***** FOOTER *****/
 

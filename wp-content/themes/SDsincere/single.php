@@ -43,7 +43,9 @@
 			<?php endif; ?>
 			<!-- /post thumbnail -->
 
-			<?php the_content(); // Dynamic Content ?>
+			<div id="single-content">
+			<?php the_content(); ?>
+			</div>
 
 			<p><?php the_category(', '); // Separated by commas ?></p>
 
