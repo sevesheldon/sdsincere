@@ -16,6 +16,25 @@
 			</h1>
 			<!-- /post title -->
 
+			<div class="container">
+				<div class="row" id="single-percents">
+					<div class="col-sm-4 single-percent" id="single-thc">
+    					<p>THC<p/>
+    					<p class=""><?php the_field('thc'); ?>%</p>						
+					</div>
+					<div class="col-sm-4 single-percent" id="single-cbd">
+    					<p>CBD<p/>
+    					<p class=""><?php the_field('cbd'); ?>%</p>							
+					</div>
+					<div class="col-sm-4 single-percent" id="single-cbn">
+    					<p>CBN<p/>
+    					<p class=""><?php the_field('cbn'); ?>%</p>							
+					</div>					
+
+
+				</div>
+			</div>
+
 			<!-- post thumbnail -->
 			<?php if ( has_post_thumbnail()) : // Check if Thumbnail exists ?>
 				<div id="single-pic">
