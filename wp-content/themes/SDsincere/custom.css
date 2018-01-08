@@ -102,6 +102,11 @@ nav.nav {
     margin: 20px 0;
 }
 
+#single-pic {
+    text-align: center;
+    margin: 30px 0 30px -20px; 
+}
+
 
 /***** FOOTER *****/
 

@@ -18,9 +18,11 @@
 
 			<!-- post thumbnail -->
 			<?php if ( has_post_thumbnail()) : // Check if Thumbnail exists ?>
-				<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
-					<?php the_post_thumbnail('medium_large'); ?>
-				</a>
+				<div id="single-pic">
+					<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
+						<?php the_post_thumbnail('medium_large'); ?>
+					</a>
+				</div>
 			<?php endif; ?>
 			<!-- /post thumbnail -->
 
