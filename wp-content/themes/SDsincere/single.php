@@ -38,9 +38,7 @@
 			<!-- post thumbnail -->
 			<?php if ( has_post_thumbnail()) : // Check if Thumbnail exists ?>
 				<div id="single-pic">
-					<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
-						<?php the_post_thumbnail('medium_large'); ?>
-					</a>
+					<?php the_post_thumbnail('medium_large'); ?>
 				</div>
 			<?php endif; ?>
 			<!-- /post thumbnail -->
