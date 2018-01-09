@@ -117,6 +117,20 @@ nav.nav {
     text-align: center;
 }
 
+.single-prices.row {
+    max-width: 400px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.single-flower {
+    max-width: 100px;
+}
+
+.single-concentrates {
+    width: 130px;
+}
+
 #single-content {
     max-width: 720px;
     margin: auto;
@@ -133,6 +147,7 @@ nav.nav {
 
 .top {
     padding: 10px 0 20px 0;
+    display: inline-block;
 }
 
 .arrow-up {
@@ -147,3 +162,18 @@ nav.nav {
 .back-to-top {
     
 }
+
+
+/***** MEDIA QUERIES *****/
+
+@media screen and (max-width: 524px){
+
+    .single-flower {
+        max-width: 60px;
+        padding: 0;
+    }
+
+}    
+
+
+

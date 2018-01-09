@@ -38,6 +38,41 @@
     									
 				</div>
 
+				<div class="single-prices row">
+
+				<?php if ( get_field('pricing') == 'flower' ) : ?>								
+
+					<div class="col-sm-3 single-price-box single-flower">	
+		    			<div class="single-weight" id="single-1/8"><h4>1/8</h4><h3 class="single-values single-price">$<?php the_field('1/8'); ?></h3></div>
+		    		</div>		    		
+		    		<div class="col-sm-3 single-price-box single-flower">		
+		    			<div class="single-weight" id="single-1/4"><h4>1/4</h4><h3 class="single-values single-price">$<?php the_field('1/4'); ?></h3></div>
+		    		</div>		    	
+		    		<div class="col-sm-3 single-price-box single-flower">		
+		    			<div class="single-weight" id="single-1/2"><h4>1/2</h4><h3 class="single-values single-price">$<?php the_field('1/2'); ?></h3></div>
+		    		</div>		    	
+		    		<div class="col-sm-3 single-price-box single-flower">		
+		    			<div class="single-weight" id="single-oz"><h4>Oz.</h4><h3 class="single-values single-price">$<?php the_field('oz'); ?></h3></div>
+		    		</div>
+
+		    	<?php elseif ( get_field('pricing') == 'concentrates') : ?>
+
+		    		<div class="col-sm-6 single-price-box single-concentrates">
+		    			<div class="single-weight" id="single-half-g"><h4>.5g</h4><h3 class="single-values single-price">$<?php the_field('half_g'); ?></h3></div>
+		    		</div>
+		    		<div class="col-sm-6 single-price-box single-concentrates">
+		    			<div class="single-weight" id="single-full-g"><h4>1g</h4><h3 class="single-values single-price">$<?php the_field('full_g'); ?></h3></div>
+		    		</div>
+
+		    	<?php elseif ( get_field('pricing') == 'edibles') : ?>	
+
+		    		<div class="col-sm-12 single-price-box single-edibles">
+		    			<div class="single-weight" id="single-each"><h4>Each</h4><h3 class="single-values single-price">$<?php the_field('each'); ?></h3></div>
+		    		</div>			    		    	
+		    				    		
+		    	<?php endif; ?>				
+
+				</div>
 			</div>
 
 			<!-- post thumbnail -->

@@ -106,25 +106,25 @@
 
 								<?php if ( get_field('pricing') == 'flower' ) : ?>								
 
-									<div class="col-sm-3 price-box" id="flower">	
+									<div class="col-sm-3 price-box flower">	
 
 			    		    			<div class="weight" id="1/8"><p>1/8</p><h4 class="values price">$<?php the_field('1/8'); ?></h4></div>
 
 			    		    		</div>
 			    		    		
-			    		    		<div class="col-sm-3 price-box" id="flower">		
+			    		    		<div class="col-sm-3 price-box flower">		
 
 			    		    			<div class="weight" id="1/4"><p>1/4</p><h4 class="values price">$<?php the_field('1/4'); ?></h4></div>
 
 			    		    		</div>
 			    		    		
-			    		    		<div class="col-sm-3 price-box" id="flower">		
+			    		    		<div class="col-sm-3 price-box flower">		
 
 			    		    			<div class="weight" id="1/2"><p>1/2</p><h4 class="values price">$<?php the_field('1/2'); ?></h4></div>
 
 			    		    		</div>
 			    		    		
-			    		    		<div class="col-sm-3 price-box" id="flower">		
+			    		    		<div class="col-sm-3 price-box flower">		
 
 			    		    			<div class="weight" id="oz"><p>Oz.</p><h4 class="values price">$<?php the_field('oz'); ?></h4></div>
 
@@ -132,11 +132,11 @@
 
 			    		    	<?php elseif ( get_field('pricing') == 'concentrates') : ?>
 
-			    		    		<div class="col-sm-6 price-box" id="concentrates">
+			    		    		<div class="col-sm-6 price-box concentrates">
 			    		    			<div class="weight" id="half-g"><p>.5g</p><h4 class="values price">$<?php the_field('half_g'); ?></h4></div>
 			    		    		</div>
 
-			    		    		<div class="col-sm-6 price-box" id="concentrates">
+			    		    		<div class="col-sm-6 price-box concentrates">
 			    		    			<div class="weight" id="full-g"><p>1g</p><h4 class="values price">$<?php the_field('full_g'); ?></h4></div>
 			    		    		</div>
 
