@@ -10,6 +10,25 @@ section.home {
     margin-left: 20px;
 }
 
+.extra-nav {
+/*    margin: auto;
+    width: 60%;*/
+    text-align: center;
+}
+
+ul#menu-cat-menu-home {
+/*    display: flex;*/
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    text-align: center;
+}
+
+ul#menu-cat-menu-home li {
+    padding: 1% 5%;
+}
+
 .logo {
     margin: auto;
     width: 300px;
@@ -187,6 +206,14 @@ nav.nav {
         padding-right: 0;
         padding-left: 30px;
     }
+
+/*    .extra-nav {
+        width: 70%;
+    }
+
+    ul#menu-cat-menu-home {
+        padding-left: 40px;
+    }*/
 
 }   
 

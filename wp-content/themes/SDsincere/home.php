@@ -3,6 +3,11 @@
 	<main role="main">
 	<!-- section -->
 
+		<div class="extra-nav" role="navigation">
+			<h5>Scroll to:</h5>
+			<?php wp_nav_menu('extra-menu'); ?>
+		</div>
+
 	<section class="home">
 
 <?php 
@@ -203,6 +208,11 @@ wp_reset_postdata();
 
 	</section>
 	<!-- /section -->
+
+<!-- 		<div class="extra-nav" role="navigation">
+			<h5>Scroll to:</h5>
+			<?php wp_nav_menu('extra-menu'); ?>
+		</div> -->
 	</main>
 
 <?php get_footer(); ?>
