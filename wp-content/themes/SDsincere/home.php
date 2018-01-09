@@ -2,6 +2,7 @@
 
 	<main role="main">
 	<!-- section -->
+
 	<section class="home">
 
 <?php 
@@ -12,7 +13,11 @@
 
 	   $catPosts = new WP_Query( array ( 'category_name' => $category->slug, 'orderby' => 'title' ) ); ?>
 
-	   <div class="cat-name">
+<!-- 	   	<div id="cat-scroll-menu">
+	   		<h4><a href='#<?php echo $category->name ?>'> <?php echo $category->name ?></a></h4>
+		</div> -->
+
+	   <div class="cat-name" id="<?php echo $category->name ?>">
 			<h1>
 				<a href='/category/<?php echo $category->name ?>'> <?php echo $category->name ?> (<?php echo $catPosts->found_posts; ?>)</a>
 			</h1>

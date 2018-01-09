@@ -56,5 +56,11 @@
 					</nav>
 					<!-- /nav -->
 
+<!-- 				   <div class="menu-cat">
+						<h4>
+							<a href='/category/<?php echo $category->name ?>'> <?php echo $category->name ?> (<?php echo $catPosts->found_posts; ?>)</a>
+						</h4>
+					</div> 
+ -->
 			</header>
 			<!-- /header -->
