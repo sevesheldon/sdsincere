@@ -223,11 +223,6 @@ nav.nav {
         padding: 0 0 0 15px;
     }*/
 
-    p.copyright {
-        width: max-content;
-        margin-left: -20px;
-    }
-
     .desktop-container {
         display: none;
     }
@@ -255,7 +250,15 @@ nav.nav {
         padding-top: 3px;
     }  
 
-}   
+} 
+
+@media screen and (max-width: 430px){
+
+    p.copyright {
+        width: max-content;
+        margin-left: -5.5%;
+    }  
+}
 
 
 
