@@ -85,9 +85,10 @@
 
 			<div id="single-content">
 			<?php the_content(); ?>
+			<h4><?php the_category(', '); ?></h4>
 			</div>
 
-			<p><?php the_category(', '); // Separated by commas ?></p>
+			
 
 		</article>
 		<!-- /article -->
