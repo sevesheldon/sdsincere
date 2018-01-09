@@ -173,7 +173,7 @@
 					</div>
 					<div class="col-xs-8" id="mobile-content-home">
 						<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>	
-						<!-- <div class='cat-name-content'><p><a href='/category/<?php echo $category->name ?>'><?php echo $category->name ?></a> | <?php the_field('descript'); ?></p></div> -->
+						<div class='mobile-cat-name-content'><p><a href='/category/<?php echo $category->name ?>'><?php echo $category->name ?></a> | <?php the_field('descript'); ?></p></div>
 					</div>
 				</div>
 			</div>
