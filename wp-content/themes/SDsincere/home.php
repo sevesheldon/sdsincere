@@ -27,7 +27,7 @@
 	       while ( $catPosts->have_posts() ){
 	          $catPosts->the_post(); ?>
 
-	        <div class="container">
+	        <div class="container desktop-container">
 
 				<div id="indica-rows" class="row">
 
@@ -35,7 +35,7 @@
 
 						<div class="row">
 
-							<div class="row1 col-1 col-sm-2">
+							<div class="row1 col1 col-sm-2">
 		    			
 				    		    <?php if ( has_post_thumbnail()) : ?>
 									<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
@@ -45,7 +45,7 @@
 
 	    		    		</div>						    		    						 
 
-							<div class="row1 col-2 col-sm-7">
+							<div class="row1 col2 col-sm-7">
 
 								<div class="row">
 
@@ -100,7 +100,7 @@
 
 	    		    		</div>    		    	
 
-							<div class="row1 col-3 col-sm-3">
+							<div class="row1 col3 col-sm-3">
 
 								<div class="prices row">
 
@@ -160,7 +160,24 @@
 
 				</div>
 
-			</div>	
+			</div>
+
+			<div class="container mobile-container">
+				<div class="row">
+					<div class="col-xs-4" id="mobile-pic-home">
+					<?php if ( has_post_thumbnail()) : ?>
+						<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
+							<?php the_post_thumbnail('thumbnail'); ?>
+						</a>
+					<?php endif; ?>
+					</div>
+					<div class="col-xs-8" id="mobile-content-home">
+						<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>	
+						<!-- <div class='cat-name-content'><p><a href='/category/<?php echo $category->name ?>'><?php echo $category->name ?></a> | <?php the_field('descript'); ?></p></div> -->
+					</div>
+				</div>
+			</div>
+	
 					    	
 
 		       <?php 
