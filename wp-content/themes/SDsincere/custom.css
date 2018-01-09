@@ -141,7 +141,8 @@ nav.nav {
 }
 
 .single-prices {
-    margin: 15px;
+    max-width: 400px;
+    margin: 15px auto;
     text-align: center;
 }
 
@@ -218,9 +219,9 @@ nav.nav {
 
 @media screen and (max-width: 768px){
 
-    .single-flower {
+/*    .single-flower {
         padding: 0 0 0 15px;
-    }
+    }*/
 
     p.copyright {
         width: max-content;
