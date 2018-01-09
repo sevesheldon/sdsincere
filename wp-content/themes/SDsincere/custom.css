@@ -164,6 +164,19 @@ nav.nav {
 }
 
 
+/***** CATEGORY PAGE *****/
+
+.loop-wrapper {
+    width: 330px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.cat-page-title {
+    text-align: center;
+}
+
+
 /***** FOOTER *****/
 
 .footer {
