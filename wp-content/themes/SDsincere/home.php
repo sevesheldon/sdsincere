@@ -4,7 +4,7 @@
 	<!-- section -->
 
 		<div class="extra-nav" role="navigation">
-			<h5>Scroll to:</h5>
+			<h4>Scroll to:</h4>
 			<?php wp_nav_menu('extra-menu'); ?>
 		</div>
 

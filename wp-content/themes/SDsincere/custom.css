@@ -30,7 +30,8 @@ ul#menu-cat-menu-home {
 }
 
 ul#menu-cat-menu-home li {
-    padding: 1% 5%;
+    padding: 1px 0;
+    font-size: 14px;
 }
 
 .logo {
