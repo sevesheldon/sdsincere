@@ -1,7 +1,7 @@
 			<!-- footer -->
 			<footer class="footer" role="contentinfo">
 
-				<div class="top">
+				<div id="top">
 					<a href="#"><div class="arrow-up"></div><div class="back-to-top">Back To Top</div></a>
 				</div>
 
