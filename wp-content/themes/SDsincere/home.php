@@ -3,10 +3,18 @@
 	<main role="main">
 	<!-- section -->
 
-		<div class="extra-nav" role="navigation">
+<!-- 		<div class="extra-nav" role="navigation">
 			<h4>Scroll to:</h4>
-			<?php wp_nav_menu('extra-menu'); ?>
-		</div>
+		</div> -->
+
+			<?php 
+				if ( has_nav_menu( 'extra-menu' ) ) {
+				    wp_nav_menu( array(
+				        'theme_location' => 'extra-menu',
+				        'items_wrap'     => '<select id="drop-nav"><option value="#">Jump to a category...</option>%3$s</select>',
+				        'walker'  => new Walker_Nav_Menu_Dropdown()));
+				}
+			?>
 
 	<section class="home">
 

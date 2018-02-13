@@ -57,7 +57,14 @@
 
 			$("HTML, BODY").animate({ scrollTop: position }, 250); 
 
-		});							
+		});	
+
+
+		// Drop-down menu function
+        $("#drop-nav").change( function() {
+                document.location.href =  $(this).val();
+        });
+
 		
 	});
 	

@@ -55,6 +55,12 @@ nav.nav {
     padding: 0 20px;
 }
 
+select#drop-nav {
+    margin: 0 auto;
+    display: block;
+    font-size: 12px;
+}
+
 .row img {
     height: 102px;
 }
